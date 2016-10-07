@@ -3,22 +3,17 @@ body {
 		}
 
 		img{
-			float: left;
-			margin: 20px;
 			padding-right: 10px;	
 		}
 
-		h1, h2, h3, h4, h5, h6, {
-			color: #3a3a3a;
+		h1, h2, h3, h4, h5, h6 {
+			color: #262626;
 			font-family: Open Sans;
 			font-weight: 700;
 
 
 		}
 
-		.pt {
-			font-family: PT Serif;
-		}
 
 		p {
 			color: #3a3a3a;
@@ -27,22 +22,13 @@ body {
 
 		}
 
+
 		a {
 			color: #008080;
 			font-family: Open Sans;
 			font-weight: 700;	
 		}
 
-		.labels{
-			color: #2880b9;
-			font-family: Open Sans;
-			font-size: 18px;
-			font-weight: 100;
-		}
-
-		.caption{
-			color: #2880b9;
-		}
 
 		div{
 			width: 150px;
@@ -54,6 +40,22 @@ body {
 			font-family: Open Sans;
 			font-weight: 800;
 			font-size: 18px;
+		}
+
+		.pt {
+			font-family: PT Serif;
+		}
+
+		.labels{
+			color: #2880b9;
+			font-family: Open Sans;
+			font-size: 18px;
+			font-weight: 300;
+			letter-spacing: 2px;
+		}
+
+		.caption{
+			color: #2880b9;
 		}
 
 		.font{
