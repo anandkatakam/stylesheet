@@ -1,34 +1,12 @@
-body {
+		body {
 				font-family: "Helvetica", sans-serif;
 		}
-
-		img{
-			padding-right: 10px;	
-		}
-
-		h1, h2, h3, h4, h5, h6 {
-			color: #262626;
-			font-family: Open Sans;
-			font-weight: 700;
-
-
-		}
-
 
 		p {
 			color: #3a3a3a;
 			font-family: Open Sans;
 			font-weight: 400;
-
 		}
-
-
-		a {
-			color: #008080;
-			font-family: Open Sans;
-			font-weight: 700;	
-		}
-
 
 		div{
 			width: 150px;
@@ -42,20 +20,56 @@ body {
 			font-size: 18px;
 		}
 
-		.pt {
-			font-family: PT Serif;
+		.headers {
+			color: #3a3a3a;
+			font-family: Open Sans;
+			font-weight: 700;
 		}
 
-		.labels{
+		
+
+		.link {
+			color: #008080;
+			font-family: Open Sans;
+			font-weight: 700;	
+		}
+
+			
+
+		.labels {
 			color: #2880b9;
 			font-family: Open Sans;
 			font-size: 18px;
 			font-weight: 300;
-			letter-spacing: 2px;
+		}
+
+		.PT {
+			font-family: PT Serif; 
+		}
+
+		.Open {
+			font-family: Open Sans;
+		}
+
+		.headline {
+			font-size: 44px;		
 		}
 
 		.caption{
 			color: #2880b9;
+			font-style: italic;
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		.regular {
+			font-weight: 400;
+		}
+
+		.light{
+			font-weight: 300;
 		}
 
 		.font{
